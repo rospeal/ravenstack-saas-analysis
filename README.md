@@ -53,6 +53,12 @@ The analysis was structured around several business areas:
 
 ## Dataset
 
+This project uses the **SaaS Subscription & Churn Analytics Dataset** published by **Rivalytics** on Kaggle.
+
+**Source:** [SaaS Subscription & Churn Analytics Dataset – Kaggle](https://www.kaggle.com/datasets/rivalytics/saas-subscription-and-churn-analytics-dataset)
+
+The source dataset is provided under the **MIT License**. The original CSV files are included in the `data/` folder for reproducibility.
+
 The analysis uses five related tables:
 
 - `ravenstack_accounts` — customer/account characteristics
