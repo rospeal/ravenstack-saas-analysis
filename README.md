@@ -302,21 +302,24 @@ The DevTools investigation demonstrates an important limitation: existing metric
 
 ## Repository Structure
 
-```text
 ravenstack-saas-analysis/
 │
 ├── README.md
 ├── ravenstack_analysis.sql
 ├── RavenStack_Dashboard.pbix
+├── RavenStack_Dashboard.pdf
 │
 ├── data/
-│   └── Dataset files or source information
+│   ├── ravenstack_accounts.csv
+│   ├── ravenstack_churn_events.csv
+│   ├── ravenstack_feature_usage.csv
+│   ├── ravenstack_subscriptions.csv
+│   └── ravenstack_support_tickets.csv
 │
 └── screenshots/
     ├── executive_overview.png
     ├── customer_churn_analysis.png
     └── product_support_analysis.png
-```
 
 ---
 
